@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+</head>
+<body>
+   <button onclick="showAge()">Show My Age</button>
+
+<script>
+// Variables
+let birthYear = 2012;
+let birthMonth = 11; 
+let currentYear = 2025;
+let currentMonth = 12; 
+
+
+let ageYears = currentYear - birthYear;
+let ageMonths = currentMonth - birthMonth;
+
+
+
+
+
+console.log(`You are ${ageYears} years and ${ageMonths} months old`);
+
+
+function showAge() {
+    alert(`You are ${ageYears} years and ${ageMonths} months old`);
+}
+</script>
+
+
+</body>
+</html>
