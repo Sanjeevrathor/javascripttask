@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temparature converter</title>
+</head>
+<body>
+        <p id="tempOutput"></p>
+    <script>
+
+        let C = 25;
+        let F = (C * 9/5) + 32;
+        let K = C + 273.15;
+
+        let result = "Celsius:"+ C+"°C,"+"Fahrenheit:" +F+"°F," + "Kelvin:" + K +"°K";
+                console.log(result);
+        document.getElementById("tempOutput").textContent = result;
+    </script>
+</body>
+</html>
